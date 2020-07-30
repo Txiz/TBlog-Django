@@ -1,0 +1,33 @@
+<nav>
+    <ul class="pagination justify-content-center">
+        {% if all_list.has_previous %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ all_list.previous_page_number }}">上一页</a>
+            </li>
+        {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" href="#">上一页</a>
+            </li>
+        {% endif %}
+        {% for num in all_list.paginator.page_range %}
+            {% ifequal num all_list.number %}
+                <li class="page-item active">
+                    <a class="page-link" href="?page={{ num }}">{{ num }}</a>
+                </li>
+            {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ num }}">{{ num }}</a>
+                </li>
+            {% endifequal %}
+        {% endfor %}
+        {% if all_list.has_next %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ all_list.next_page_number }}">下一页</a>
+            </li>
+        {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" href="#">下一页</a>
+            </li>
+        {% endif %}
+    </ul>
+</nav>

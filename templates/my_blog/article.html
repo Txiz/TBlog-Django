@@ -1,0 +1,33 @@
+{% load static %}
+{% for list in all_list %}
+    <div class="row div-left-article clearfix ">
+        <div class="col-md-4">
+            <div class="img-thumbnail">
+                <a href="{% url 'index' %}show-{{ list.id }}.html">
+                    <img src="../media/{{ list.img }}" class="div-left-img"/>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <h2>
+                <a href="{% url 'index' %}show-{{ list.id }}.html">{{ list.title }}</a>
+            </h2>
+            <p>
+                <a href="{% url 'index' %}show-{{ list.id }}.html">{{ list.digest }}</a>
+            </p>
+            <div class="meta">
+                <div class="meta">
+                    <span class="label text-success">
+                        {{ list.views }}浏览
+                    </span>
+                    <time class="label text-primary">
+                        {{ list.create_time|date:"Y年m月d日" }}发布
+                    </time>
+                    <time class="label text-warning">
+                        {{ list.update_time|date:"Y年m月d日" }}更新
+                    </time>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

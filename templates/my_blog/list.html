@@ -1,0 +1,24 @@
+﻿{% extends "my_blog/base.html" %}
+{% block content %}
+    <nav class="div-main clearfix">
+        {% include 'my_blog/rotation_chart.html' %}
+        <section class="post-left">
+            <div class="breadcrumb">
+                您的位置：
+                <a itemprop="breadcrumb" href="{% url 'index' %}">首页</a>
+                &nbsp; » &nbsp;
+                <span class="current">{{ category_name }} </span>
+            </div>
+            <nav class="div-left clearfix">
+                <div class="div-left-title">
+                    <h4 class="div-left-title-h4 float-left">分类：{{ category_name }}</h4>
+                </div>
+                {% include 'my_blog/article.html' %}
+                {% include 'my_blog/paginator.html' %}
+            </nav>
+        </section>
+        <aside class="post-right hidden-xs">
+            {% include 'my_blog/right.html' %}
+        </aside>
+    </nav>
+{% endblock %}

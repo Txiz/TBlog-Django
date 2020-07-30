@@ -1,0 +1,40 @@
+{% load static %}
+<!-- 文章列表 -->
+<div class="div-left clearfix">
+    <div class="div-left-title">
+        <h4 class="div-left-title-h4 float-left">所有文章</h4>
+    </div>
+    {% for article in all_list %}
+        <div class="row clearfix div-left-article">
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <a href="{% url 'index' %}show-{{ article.id }}.html" title="{{ article.title }}">
+                        <img src="media/{{ article.img }}" class="div-left-img"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h2>
+                    <a href="{% url 'index' %}show-{{ article.id }}.html"
+                       title="{{ article.title }}">{{ article.title }}</a>
+                </h2>
+                <p>
+                    <a href="{% url 'index' %}show-{{ article.id }}.html"
+                       title="{{ article.title }}">{{ article.digest }}</a>
+                </p>
+                <div class="meta">
+                    <span class="label text-success">
+                        {{ article.views }}浏览
+                    </span>
+                    <time class="label text-primary">
+                        {{ article.create_time|date:"Y年m月d日" }}发布
+                    </time>
+                    <time class="label text-warning">
+                        {{ article.update_time|date:"Y年m月d日" }}更新
+                    </time>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    {% include 'my_blog/paginator.html' %}
+</div>

@@ -1,0 +1,60 @@
+{% extends "my_blog/base.html" %}
+{% block content %}
+    <div class="div-main clearfix">
+        {% include 'my_blog/rotation_chart.html' %}
+        <section class="post-left">
+            <div class="breadcrumb">
+                您的位置：
+                <a itemprop="breadcrumb" href="{% url 'index' %}">首页</a>
+                &nbsp; » &nbsp;
+                <span class="current">关键词：{{ search_key }}</span>
+            </div>
+            <div class="div-left clearfix">
+                <div class="div-left-title">
+                    <h4 class="div-left-title-h4 float-left">关键词：{{ search_key }}</h4>
+                </div>
+                {% include 'my_blog/article.html' %}
+                <nav>
+                    <ul class="pagination justify-content-center">
+                        {% if all_list.has_previous %}
+                            <li class="page-item">
+                                <a class="page-link"
+                                   href="{% url 'index' %}s/?search={{ ss }}&page={{ all_list.previous_page_number }}">上一页</a>
+                            </li>
+                        {% else %}
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">上一页</a>
+                            </li>
+                        {% endif %}
+                        {% for num in all_list.paginator.page_range %}
+                            {% ifequal num all_list.number %}
+                                <li class="page-item active">
+                                    <a class="page-link"
+                                       href="{% url 'index' %}s/?search={{ ss }}&page={{ num }}">{{ num }}</a>
+                                </li>
+                            {% else %}
+                                <li class="page-item">
+                                    <a class="page-link"
+                                       href="{% url 'index' %}s/?search={{ ss }}&page={{ num }}">{{ num }}</a>
+                                </li>
+                            {% endifequal %}
+                        {% endfor %}
+                        {% if all_list.has_next %}
+                            <li class="page-item">
+                                <a class="page-link"
+                                   href="{% url 'index' %}s/?search={{ ss }}&page={{ all_list.next_page_number }}">下一页</a>
+                            </li>
+                        {% else %}
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">下一页</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <aside class="post-right hidden-xs">
+            {% include 'my_blog/right.html' %}
+        </aside>
+    </div>
+{% endblock %}

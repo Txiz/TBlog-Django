@@ -1,0 +1,46 @@
+{% load static %}
+<!-- 搜索框-->
+<section class="div-right-item">
+    <form method="get" class="index-search  hidden-xs" action="{% url 'index' %}s/">
+        <input class="text" name="search" type="text" placeholder="输入关键字" value="">
+        <button class="submit" type="submit">
+        </button>
+    </form>
+</section>
+<!-- 联系博主 -->
+<div class="div-right-item">
+    <h4 class="post-right-title">联系博主</h4>
+    <div class="wid-about">
+        <img src="{% static "picture/weixin.jpg" %}" width="160" height="160">
+    </div>
+    <div class="wid-about">
+        <p><strong>联系方式:</strong></p>
+        <p>QQ:853954828</p>
+        <p>Email：853954828@qq.com</p>
+    </div>
+</div>
+<!-- 热门文章 -->
+<section class="div-right-item">
+    <h4 class="post-right-title">热门文章排行</h4>
+    <ol class="hot-list">
+        {% for article in hot_article %}
+            <li>
+                <a href="{% url 'index' %}show-{{ article.id }}.html"
+                   title="{{ article.title }}">{{ article.title }}</a>
+            </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<!-- 所有标签 -->
+<section>
+    <section class="div-right-item"><h4 class="post-right-title">所有标签</h4>
+        <div class="tags">
+            {% for tag in all_tag %}
+                <a href="{% url 'index' %}tag/{{ tag.name }}">{{ tag.name }}</a>
+            {% endfor %}
+        </div>
+    </section>
+</section>
+
+
