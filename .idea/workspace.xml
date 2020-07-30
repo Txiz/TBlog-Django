@@ -11,17 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="a9b7d624-4ea2-4c3c-8bbd-3853216f2050" value="Yellow" />
-    </colors>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -42,6 +38,13 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Xiongzhaoxi/Blog.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1e2MJCbHwMhNPBKPk6IcvFqTG1L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,7 +72,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,7 +181,8 @@
       <workItem from="1596073182065" duration="1583000" />
       <workItem from="1596076040510" duration="44000" />
       <workItem from="1596080123337" duration="288000" />
-      <workItem from="1596080415408" duration="478000" />
+      <workItem from="1596080415408" duration="1768000" />
+      <workItem from="1596082213589" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596080654745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第一次更新">
+      <created>1596081105601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596081105601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +253,11 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -252,7 +268,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="init comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="init comment" />
+    <MESSAGE value="第一次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="394" key="#Notifications" timestamp="1596080717038">
@@ -271,38 +288,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="582" y="201" key="#检查/0.0.1920.1080@0.0.1920.1080" timestamp="1594982886210" />
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596080653824">
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596081104679">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596080653824" />
-    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1596080402220">
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596081104679" />
+    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596081285790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596080402220" />
-    <state x="787" y="434" width="325" height="373" key="Github.ShareDialog" timestamp="1596080517898">
+    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596081285790" />
+    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1596080911843">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="787" y="434" width="325" height="373" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596080517898" />
+    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596080911843" />
+    <state x="787" y="434" width="325" height="373" key="Github.ShareDialog" timestamp="1596080925859">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="787" y="434" width="325" height="373" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596080925859" />
     <state x="680" y="169" key="Github.UntrackedFilesDialog" timestamp="1596075909018">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="797" height="266" key="GridCell.Tab.0.bottom" timestamp="1596080661761">
+    <state width="1865" height="268" key="GridCell.Tab.0.bottom" timestamp="1596082195175">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="797" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596080661761" />
-    <state width="797" height="266" key="GridCell.Tab.0.center" timestamp="1596080661761">
+    <state width="1865" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195175" />
+    <state width="1865" height="268" key="GridCell.Tab.0.center" timestamp="1596082195175">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="797" height="266" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596080661761" />
-    <state width="797" height="266" key="GridCell.Tab.0.left" timestamp="1596080661761">
+    <state width="1865" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195175" />
+    <state width="1865" height="268" key="GridCell.Tab.0.left" timestamp="1596082195174">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="797" height="266" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596080661761" />
-    <state width="797" height="266" key="GridCell.Tab.0.right" timestamp="1596080661761">
+    <state width="1865" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195174" />
+    <state width="1865" height="268" key="GridCell.Tab.0.right" timestamp="1596082195175">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="797" height="266" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596080661761" />
+    <state width="1865" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195175" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -335,18 +356,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1865" height="345" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595340553331" />
-    <state x="576" y="197" width="1141" height="883" key="SettingsEditor" timestamp="1596080896547">
+    <state x="576" y="197" width="1141" height="883" key="SettingsEditor" timestamp="1596081936883">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="576" y="197" width="1141" height="883" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596080896547" />
+    <state x="576" y="197" width="1141" height="883" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596081936883" />
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup" timestamp="1595922893865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596080706143">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596081034577">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596080706143" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596081034577" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -359,14 +380,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="100" y="124" width="1470" height="880" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596080363814" />
-    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596073710290">
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596081285790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596073710290" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596080657386">
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596081285790" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596080936890">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596080657386" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596080936890" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596080877062">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
