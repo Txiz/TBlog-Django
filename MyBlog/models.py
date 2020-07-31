@@ -1,3 +1,4 @@
+from PIL import Image
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
@@ -71,6 +72,12 @@ class RotationChart(models.Model):
     class Meta:
         verbose_name = '轮播图'
         verbose_name_plural = '轮播图'
+
+    def save(self, *args, **kwargs):
+        super(RotationChart, self).save()
+        image = Image.open(self.img)
+        image = image.resize((1920, 1080), Image.ANTIALIAS)
+        image.save(self.img.path)
 
     def __str__(self):
         return self.title

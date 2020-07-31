@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +183,8 @@
       <workItem from="1596076040510" duration="44000" />
       <workItem from="1596080123337" duration="288000" />
       <workItem from="1596080415408" duration="1768000" />
-      <workItem from="1596082213589" duration="380000" />
+      <workItem from="1596082213589" duration="1695000" />
+      <workItem from="1596156561086" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -219,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596081105601</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第二次更新，增加requirements.txt文件">
+      <created>1596082681121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596082681121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +278,8 @@
     </ignored-roots>
     <MESSAGE value="init comment" />
     <MESSAGE value="第一次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次更新" />
+    <MESSAGE value="第二次更新，增加requirements.txt文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次更新，增加requirements.txt文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="394" key="#Notifications" timestamp="1596080717038">
@@ -288,10 +298,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="582" y="201" key="#检查/0.0.1920.1080@0.0.1920.1080" timestamp="1594982886210" />
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596081104679">
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596082680106">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596081104679" />
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596082680106" />
     <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596081285790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -308,22 +318,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom" timestamp="1596082195175">
+    <state width="1598" height="268" key="GridCell.Tab.0.bottom" timestamp="1596163788140">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195175" />
-    <state width="1865" height="268" key="GridCell.Tab.0.center" timestamp="1596082195175">
+    <state width="1598" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596163788140" />
+    <state width="1598" height="268" key="GridCell.Tab.0.center" timestamp="1596163788140">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195175" />
-    <state width="1865" height="268" key="GridCell.Tab.0.left" timestamp="1596082195174">
+    <state width="1598" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596163788140" />
+    <state width="1598" height="268" key="GridCell.Tab.0.left" timestamp="1596163788140">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195174" />
-    <state width="1865" height="268" key="GridCell.Tab.0.right" timestamp="1596082195175">
+    <state width="1598" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596163788140" />
+    <state width="1598" height="268" key="GridCell.Tab.0.right" timestamp="1596163788140">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596082195175" />
+    <state width="1598" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596163788140" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -364,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596081034577">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596082712168">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596081034577" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596082712168" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -384,10 +394,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596081285790" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596080936890">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596082647218">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596080936890" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596082647218" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596080877062">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
