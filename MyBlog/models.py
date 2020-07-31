@@ -63,7 +63,7 @@ class Article(models.Model):
 # 轮播图
 class RotationChart(models.Model):
     img = models.ImageField(upload_to='rotation_chart/%Y/%m/%d/', verbose_name='轮播图图片', blank=True, null=True)
-    title = models.CharField('轮播图标题', max_length=70)
+    title = models.CharField('轮播图标题', max_length=70, blank=True, null=True)
     content = models.TextField('轮播图文本', max_length=200)
     is_active = models.BooleanField('是否是active', default=False)
     create_time = models.DateTimeField('发布时间', auto_now_add=True)
@@ -73,6 +73,7 @@ class RotationChart(models.Model):
         verbose_name = '轮播图'
         verbose_name_plural = '轮播图'
 
+    # 重写了save方法，固定了轮播图的传入尺寸为1920*1080
     def save(self, *args, **kwargs):
         super(RotationChart, self).save()
         image = Image.open(self.img)

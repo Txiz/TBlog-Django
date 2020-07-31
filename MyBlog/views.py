@@ -33,7 +33,7 @@ def index(request):
 # 列表页
 def list_page(request, list_id):
     category_name = Category.objects.get(id=list_id)
-    all_list = Article.objects.filter(category_id=list_id).order_by('-id')
+    all_list = Article.objects.filter(category_id=list_id).order_by('id')
     paginator = Paginator(all_list, 5)
     page = request.GET.get('page')
     try:
