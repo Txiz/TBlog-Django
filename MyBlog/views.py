@@ -6,7 +6,7 @@ from MyBlog.models import Category, Article, Tag, RotationChart
 
 
 def global_variable(request):
-    all_category = Category.objects.all()
+    all_category = Category.objects.all().order_by('index')
     all_tag = Tag.objects.all()
     hot_article = Article.objects.all().order_by('-views')[:10]
     picture_list = RotationChart.objects.filter(is_active=False)

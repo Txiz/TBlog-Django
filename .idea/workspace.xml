@@ -24,7 +24,37 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="" />
+    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58a90df2-d18d-424d-8406-95224b8a0691.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58a90df2-d18d-424d-8406-95224b8a0691.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0002_auto_20200729_1516.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0003_auto_20200731_1049.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0004_auto_20200731_1100.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0005_auto_20200731_1601.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdeditor/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdeditor/configs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/2e54d9fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/38b61bac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/f90e7479.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/fcf50b5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/28/头像.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/29/2e54d9fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/29/f90e7479.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/29/f90e7479_9YK4sCf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/31/2e54d9fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/editor/f90e7479_20200731163430309482.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/editor/fcf50b5a_20200731163244528340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/29/2e54d9fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/29/2e54d9fe_oaxwixU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/29/38b61bac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/头像.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/头像_b99badJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/头像_lvvBbG3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/right.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/right.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +227,9 @@
       <workItem from="1596082213589" duration="1695000" />
       <workItem from="1596156561086" duration="8084000" />
       <workItem from="1596181826437" duration="767000" />
-      <workItem from="1596183318987" duration="1763000" />
+      <workItem from="1596183318987" duration="3492000" />
+      <workItem from="1596187987713" duration="66000" />
+      <workItem from="1596188080208" duration="1579000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -262,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596184794843</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第四次更新，后台管理系统集成了mdeditor编辑器，现在写博客的体验更好了">
+      <created>1596185121620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596185121620</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,14 +379,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="296" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596007502105" />
-    <state x="582" y="201" key="#检查" timestamp="1594982886210">
+    <state x="582" y="201" key="#检查" timestamp="1596185821528">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="582" y="201" key="#检查/0.0.1920.1080@0.0.1920.1080" timestamp="1594982886210" />
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596184793952">
+    <state x="582" y="201" key="#检查/0.0.1920.1080@0.0.1920.1080" timestamp="1596185821528" />
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596185115207">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596184793952" />
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596185115207" />
     <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596081285790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -364,22 +403,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="930" height="268" key="GridCell.Tab.0.bottom" timestamp="1596184819494">
+    <state width="1865" height="268" key="GridCell.Tab.0.bottom" timestamp="1596190929878">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596184819494" />
-    <state width="930" height="268" key="GridCell.Tab.0.center" timestamp="1596184819494">
+    <state width="1865" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
+    <state width="1865" height="268" key="GridCell.Tab.0.center" timestamp="1596190929878">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596184819494" />
-    <state width="930" height="268" key="GridCell.Tab.0.left" timestamp="1596184819494">
+    <state width="1865" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
+    <state width="1865" height="268" key="GridCell.Tab.0.left" timestamp="1596190929878">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596184819494" />
-    <state width="930" height="268" key="GridCell.Tab.0.right" timestamp="1596184819494">
+    <state width="1865" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
+    <state width="1865" height="268" key="GridCell.Tab.0.right" timestamp="1596190929878">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596184819494" />
+    <state width="1865" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -424,10 +463,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596184940543">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596185128446">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596184940543" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596185128446" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -444,10 +483,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596184893707">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596188005311">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596184893707" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596188005311" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

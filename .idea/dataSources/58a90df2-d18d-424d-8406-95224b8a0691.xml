@@ -1356,35 +1356,34 @@ tag_id</ColNames>
     <column id="378" parent="293" name="img">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="379" parent="293" name="title">
       <Position>3</Position>
       <DataType>varchar(70)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="380" parent="293" name="content">
       <Position>4</Position>
       <DataType>longtext|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="381" parent="293" name="create_time">
+    <column id="381" parent="293" name="is_active">
       <Position>5</Position>
-      <DataType>datetime(6)|0s</DataType>
+      <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="382" parent="293" name="update_time">
+    <column id="382" parent="293" name="create_time">
       <Position>6</Position>
       <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="383" parent="293" name="is_active">
+    <column id="383" parent="293" name="update_time">
       <Position>7</Position>
-      <DataType>tinyint(1)|0s</DataType>
+      <DataType>datetime(6)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
