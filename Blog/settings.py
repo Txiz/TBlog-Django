@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # 应用配置
     'MyBlog.apps.MyBlogConfig',
+    'mdeditor'
 ]
 
 MIDDLEWARE = [

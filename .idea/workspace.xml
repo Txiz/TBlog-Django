@@ -26,8 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +201,7 @@
       <workItem from="1596082213589" duration="1695000" />
       <workItem from="1596156561086" duration="8084000" />
       <workItem from="1596181826437" duration="767000" />
+      <workItem from="1596183318987" duration="1357000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596164516151</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第三次更新，固定了轮播图图片的尺寸">
+      <created>1596183435103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596183435103</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,10 +340,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="582" y="201" key="#检查/0.0.1920.1080@0.0.1920.1080" timestamp="1594982886210" />
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596164514994">
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596183434135">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596164514994" />
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596183434135" />
     <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596081285790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -351,22 +360,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom" timestamp="1596182599092">
+    <state width="1598" height="268" key="GridCell.Tab.0.bottom" timestamp="1596184343339">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596182599092" />
-    <state width="1865" height="268" key="GridCell.Tab.0.center" timestamp="1596182599092">
+    <state width="1598" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596184343339" />
+    <state width="1598" height="268" key="GridCell.Tab.0.center" timestamp="1596184343339">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596182599092" />
-    <state width="1865" height="268" key="GridCell.Tab.0.left" timestamp="1596182599092">
+    <state width="1598" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596184343339" />
+    <state width="1598" height="268" key="GridCell.Tab.0.left" timestamp="1596184343339">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596182599092" />
-    <state width="1865" height="268" key="GridCell.Tab.0.right" timestamp="1596182599092">
+    <state width="1598" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596184343339" />
+    <state width="1598" height="268" key="GridCell.Tab.0.right" timestamp="1596184343339">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596182599092" />
+    <state width="1598" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596184343339" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -399,6 +408,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1865" height="345" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595340553331" />
+    <state x="728" y="169" key="RollbackChangesDialog" timestamp="1596183388629">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="728" y="169" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596183388629" />
     <state x="576" y="197" width="1141" height="883" key="SettingsEditor" timestamp="1596169216378">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -407,10 +420,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596164824319">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596183444197">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596164824319" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596183444197" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -427,10 +440,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596164872827" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596164484339">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596183398754">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596164484339" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596183398754" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596080877062">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

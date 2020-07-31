@@ -5,6 +5,9 @@ from django.db import models
 
 # Create your models here.
 # 用户
+from mdeditor.fields import MDTextField
+
+
 class User(AbstractUser):
     class Meta:
         verbose_name = '用户信息'
@@ -46,7 +49,7 @@ class Article(models.Model):
     category = models.ForeignKey(Category, on_delete=models.DO_NOTHING, verbose_name='分类', blank=True, null=True)
     tag = models.ManyToManyField(Tag, verbose_name='标签', blank=True)
     img = models.ImageField(upload_to='article_img/%Y/%m/%d/', verbose_name='文章图片', blank=True, null=True)
-    body = models.TextField()
+    body = MDTextField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='作者')
     views = models.PositiveIntegerField('阅读量', default=0)
     create_time = models.DateTimeField('发布时间', auto_now_add=True)
