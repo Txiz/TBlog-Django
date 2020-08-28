@@ -25,35 +25,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58a90df2-d18d-424d-8406-95224b8a0691.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58a90df2-d18d-424d-8406-95224b8a0691.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_at_2020_7_30_12_17___.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_at_2020_7_31_18_23___.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在Update之前未提交更改_at_2020_7_30_12_17_[默认的]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在Update之前未提交更改_at_2020_7_31_18_23_[默认的]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0002_auto_20200729_1516.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0003_auto_20200731_1049.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0004_auto_20200731_1100.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0005_auto_20200731_1601.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mdeditor/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdeditor/configs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/2e54d9fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/38b61bac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/f90e7479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/22/fcf50b5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/28/头像.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/29/2e54d9fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/29/f90e7479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/29/f90e7479_9YK4sCf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/article_img/2020/07/31/2e54d9fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/editor/f90e7479_20200731163430309482.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/editor/fcf50b5a_20200731163244528340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/29/2e54d9fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/29/2e54d9fe_oaxwixU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/29/38b61bac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/头像.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/头像_b99badJ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/头像_lvvBbG3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/my_blog/right.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdeditor/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/mdeditor/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/Snipaste_2020-07-31_17-16-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/Snipaste_2020-07-31_17-16-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/Snipaste_2020-07-31_17-16-11_2eIPCmc.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/Snipaste_2020-07-31_17-16-11_2eIPCmc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/Back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/picture/Back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +67,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -88,6 +75,7 @@
       </set>
     </option>
   </component>
+  <component name="JupyterTrust" id="de12e269-9b42-4a1d-b5e8-7ce9293627c4" />
   <component name="ProjectId" id="1e2MJCbHwMhNPBKPk6IcvFqTG1L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -114,7 +102,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -151,6 +139,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\85395\AppData\Roaming\Subversion</configuration>
   </component>
@@ -229,7 +218,21 @@
       <workItem from="1596181826437" duration="767000" />
       <workItem from="1596183318987" duration="3492000" />
       <workItem from="1596187987713" duration="66000" />
-      <workItem from="1596188080208" duration="1579000" />
+      <workItem from="1596188080208" duration="1999000" />
+      <workItem from="1596259793051" duration="557000" />
+      <workItem from="1596260482949" duration="398000" />
+      <workItem from="1596261115587" duration="145000" />
+      <workItem from="1596341205718" duration="179000" />
+      <workItem from="1596425561803" duration="163000" />
+      <workItem from="1596425741131" duration="833000" />
+      <workItem from="1596611173137" duration="62000" />
+      <workItem from="1596611248906" duration="35000" />
+      <workItem from="1596613538863" duration="11000" />
+      <workItem from="1598421813523" duration="137000" />
+      <workItem from="1598421968437" duration="25000" />
+      <workItem from="1598583559008" duration="216000" />
+      <workItem from="1598583842144" duration="1216000" />
+      <workItem from="1598585154505" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -301,11 +304,25 @@
       <option name="project" value="LOCAL" />
       <updated>1596185121620</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第五次更新，修改了部分代码">
+      <created>1596191089651</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596191089651</updated>
+    </task>
+    <task id="LOCAL-00012" summary="第五次更新，修改了部分代码">
+      <created>1596191235413</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596191235413</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -333,10 +350,10 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="roots">
+                  <entry key="structure">
                     <value>
                       <list>
-                        <option value="$PROJECT_DIR$" />
+                        <option value="dir:C:/Users/85395/Desktop/Blog/MyBlog" />
                       </list>
                     </value>
                   </entry>
@@ -364,17 +381,26 @@
     <MESSAGE value="第二次更新，增加requirements.txt文件" />
     <MESSAGE value="第三次更新，固定了轮播图图片的尺寸" />
     <MESSAGE value="第四次更新，后台管理系统集成了mdeditor编辑器，现在写博客的体验更好了" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四次更新，后台管理系统集成了mdeditor编辑器，现在写博客的体验更好了" />
+    <MESSAGE value="第五次更新，修改了部分代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="第五次更新，修改了部分代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="394" key="#Notifications" timestamp="1596080717038">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="685" y="394" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1596080717038" />
+    <state x="452" y="92" key="#Plugins" timestamp="1598421992084">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="92" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1598421992084" />
     <state x="192" y="231" width="1428" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596080447573">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="192" y="231" width="1428" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596080447573" />
+    <state x="637" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598583568586">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="637" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598583568586" />
     <state x="296" y="235" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596007502105">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -383,18 +409,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="582" y="201" key="#检查/0.0.1920.1080@0.0.1920.1080" timestamp="1596185821528" />
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596185115207">
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1596191233940">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596185115207" />
-    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596081285790">
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1596191233940" />
+    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596191307965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596081285790" />
-    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1596164657396">
+    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596191307965" />
+    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1596260720898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596164657396" />
+    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596260720898" />
     <state x="787" y="434" width="325" height="373" key="Github.ShareDialog" timestamp="1596080925859">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -403,22 +429,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom" timestamp="1596190929878">
+    <state width="930" height="268" key="GridCell.Tab.0.bottom" timestamp="1598585067540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
-    <state width="1865" height="268" key="GridCell.Tab.0.center" timestamp="1596190929878">
+    <state width="930" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598585067540" />
+    <state width="930" height="268" key="GridCell.Tab.0.center" timestamp="1598585067540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
-    <state width="1865" height="268" key="GridCell.Tab.0.left" timestamp="1596190929878">
+    <state width="930" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598585067540" />
+    <state width="930" height="268" key="GridCell.Tab.0.left" timestamp="1598585067540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
-    <state width="1865" height="268" key="GridCell.Tab.0.right" timestamp="1596190929878">
+    <state width="930" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598585067540" />
+    <state width="930" height="268" key="GridCell.Tab.0.right" timestamp="1598585067540">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596190929878" />
+    <state width="930" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598585067540" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -455,18 +481,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="728" y="169" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596183388629" />
-    <state x="576" y="197" width="1141" height="883" key="SettingsEditor" timestamp="1596184880597">
+    <state x="351" y="197" width="1141" height="883" key="SettingsEditor" timestamp="1596341326935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="576" y="197" width="1141" height="883" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596184880597" />
+    <state x="351" y="197" width="1141" height="883" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596341326935" />
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup" timestamp="1595922893865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596185128446">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1596191305968">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596185128446" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596191305968" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -483,14 +509,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596188005311">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596191016307">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596188005311" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1596191016307" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596184934588" />
+    <state x="597" y="308" width="892" height="671" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1596261241219">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="597" y="308" width="892" height="671" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596261241219" />
     <state x="942" y="192" width="840" height="1034" key="search.everywhere.popup" timestamp="1595922959386">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

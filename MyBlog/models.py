@@ -80,7 +80,7 @@ class RotationChart(models.Model):
     def save(self, *args, **kwargs):
         super(RotationChart, self).save()
         image = Image.open(self.img)
-        image = image.resize((1920, 1080), Image.ANTIALIAS)
+        image = image.resize((960, 540), Image.ANTIALIAS)
         image.save(self.img.path)
 
     def __str__(self):
