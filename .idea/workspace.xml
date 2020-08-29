@@ -24,14 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="">
+    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第六次更新，修改了部分代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/Snipaste_2020-07-31_17-16-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/07/31/Snipaste_2020-07-31_17-16-11_2eIPCmc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/picture/weixin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/picture/weixin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +220,7 @@
       <workItem from="1598585154505" duration="1312000" />
       <workItem from="1598680857319" duration="23000" />
       <workItem from="1598680947401" duration="1201000" />
-      <workItem from="1598682180115" duration="766000" />
+      <workItem from="1598682180115" duration="1389000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -318,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598586220125</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="第六次更新，修改了部分代码">
+      <created>1598683018652</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598683018652</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,10 +412,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="582" y="201" key="#检查/0.0.1920.1080@0.0.1920.1080" timestamp="1596185821528" />
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1598586218750">
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2" timestamp="1598683017343">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1598586218750" />
+    <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1598683017343" />
     <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596191307965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -482,18 +484,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="728" y="169" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596183388629" />
-    <state x="351" y="197" width="1141" height="883" key="SettingsEditor" timestamp="1598586418819">
+    <state x="220" y="171" width="1141" height="883" key="SettingsEditor" timestamp="1598683533690">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="351" y="197" width="1141" height="883" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1598586418819" />
+    <state x="220" y="171" width="1141" height="883" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1598683533690" />
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup" timestamp="1595922893865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1598586427475">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1598683537544">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598586427475" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598683537544" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -510,10 +512,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598682901731">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598683575529">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598682901731" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598683575529" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
