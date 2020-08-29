@@ -76,7 +76,7 @@ class RotationChart(models.Model):
         verbose_name = '轮播图'
         verbose_name_plural = '轮播图'
 
-    # 重写了save方法，固定了轮播图的传入尺寸为1920*1080
+    # 重写了save方法，固定了轮播图的传入尺寸为960*540
     def save(self, *args, **kwargs):
         super(RotationChart, self).save()
         image = Image.open(self.img)
