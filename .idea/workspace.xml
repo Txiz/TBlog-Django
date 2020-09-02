@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第六次更新，修改了部分代码">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2020_8_28_11_42____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2020_8_28_11_42____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/rotation_chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/rotation_chart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,6 +202,7 @@
       <workItem from="1598680857319" duration="23000" />
       <workItem from="1598680947401" duration="1201000" />
       <workItem from="1598682180115" duration="1389000" />
+      <workItem from="1599032050338" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -352,10 +334,10 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="structure">
+                  <entry key="roots">
                     <value>
                       <list>
-                        <option value="dir:C:/Users/85395/Desktop/Blog/MyBlog" />
+                        <option value="$PROJECT_DIR$" />
                       </list>
                     </value>
                   </entry>
@@ -369,6 +351,11 @@
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -416,10 +403,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="535" y="21" width="1068" height="1014" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1598683017343" />
-    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1596191307965">
+    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog" timestamp="1599032447918">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596191307965" />
+    <state x="119" y="130" width="1470" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599032447918" />
     <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1596260720898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -432,22 +419,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="930" height="268" key="GridCell.Tab.0.bottom" timestamp="1598682711027">
+    <state width="778" height="267" key="GridCell.Tab.0.bottom" timestamp="1599032288295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598682711027" />
-    <state width="930" height="268" key="GridCell.Tab.0.center" timestamp="1598682711027">
+    <state width="778" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
+    <state width="778" height="267" key="GridCell.Tab.0.center" timestamp="1599032288295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598682711027" />
-    <state width="930" height="268" key="GridCell.Tab.0.left" timestamp="1598682711027">
+    <state width="778" height="267" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
+    <state width="778" height="267" key="GridCell.Tab.0.left" timestamp="1599032288295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598682711027" />
-    <state width="930" height="268" key="GridCell.Tab.0.right" timestamp="1598682711027">
+    <state width="778" height="267" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
+    <state width="778" height="267" key="GridCell.Tab.0.right" timestamp="1599032288295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="930" height="268" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598682711027" />
+    <state width="778" height="267" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -480,10 +467,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1865" height="345" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595340553331" />
-    <state x="728" y="169" key="RollbackChangesDialog" timestamp="1596183388629">
+    <state x="728" y="169" width="808" height="696" key="RollbackChangesDialog" timestamp="1599032240336">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="728" y="169" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596183388629" />
+    <state x="728" y="169" width="808" height="696" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599032240336" />
     <state x="220" y="171" width="1141" height="883" key="SettingsEditor" timestamp="1598683533690">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -512,10 +499,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598683575529">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599032059316">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598683575529" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599032059316" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
