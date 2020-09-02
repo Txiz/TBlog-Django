@@ -391,3 +391,16 @@ pre {
     color: #fff;
     background-color: #007fff;
 }
+
+/* 其它 */
+table thead tr th {
+    min-width: 150px;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background: #D3D6D9;
+}
+table tbody tr td {
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background: #F8FAFC;
+}

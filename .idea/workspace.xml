@@ -5,9 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第六次更新，修改了部分代码">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2020_8_28_11_42____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2020_8_28_11_42____.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/my_blog/rotation_chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/rotation_chart.html" afterDir="false" />
+    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第七次更新，修改了部分代码">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +202,7 @@
       <workItem from="1598680857319" duration="23000" />
       <workItem from="1598680947401" duration="1201000" />
       <workItem from="1598682180115" duration="1389000" />
-      <workItem from="1599032050338" duration="395000" />
+      <workItem from="1599032050338" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598683018652</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="第七次更新，修改了部分代码">
+      <created>1599032494174</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599032494174</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +379,8 @@
     <MESSAGE value="第四次更新，后台管理系统集成了mdeditor编辑器，现在写博客的体验更好了" />
     <MESSAGE value="第五次更新，修改了部分代码" />
     <MESSAGE value="第六次更新，修改了部分代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="第六次更新，修改了部分代码" />
+    <MESSAGE value="第七次更新，修改了部分代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="第七次更新，修改了部分代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="394" key="#Notifications" timestamp="1596080717038">
@@ -419,22 +427,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="778" height="267" key="GridCell.Tab.0.bottom" timestamp="1599032288295">
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom" timestamp="1599032576806">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="778" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
-    <state width="778" height="267" key="GridCell.Tab.0.center" timestamp="1599032288295">
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576806" />
+    <state width="1865" height="270" key="GridCell.Tab.0.center" timestamp="1599032576805">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="778" height="267" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
-    <state width="778" height="267" key="GridCell.Tab.0.left" timestamp="1599032288295">
+    <state width="1865" height="270" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576805" />
+    <state width="1865" height="270" key="GridCell.Tab.0.left" timestamp="1599032576805">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="778" height="267" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
-    <state width="778" height="267" key="GridCell.Tab.0.right" timestamp="1599032288295">
+    <state width="1865" height="270" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576805" />
+    <state width="1865" height="270" key="GridCell.Tab.0.right" timestamp="1599032576806">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="778" height="267" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599032288295" />
+    <state width="1865" height="270" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576806" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -479,10 +487,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1598683537544">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1599032501401">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598683537544" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599032501401" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -499,10 +507,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599032059316">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599032475090">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599032059316" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599032475090" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
