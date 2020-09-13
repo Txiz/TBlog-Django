@@ -7,8 +7,7 @@ html {
 }
 
 body {
-    background: url("../picture/Back.jpg") no-repeat fixed;
-    background-size: cover;
+    background: #f0ebf0;
     margin: 0;
     font-size: 14px;
     line-height: 20px;
@@ -51,104 +50,65 @@ pre {
 }
 
 /* 导航栏 */
-.header-main {
-    padding: 0;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.header-main-div {
-    width: 960px;
-    margin: auto;
-}
-
-.header-main-div nav {
-    padding: 0 5px;
-}
-
-.navbar-brand {
+.nav-head-a {
     font-size: 16px;
-    color: #FFF;
-    border: 2px solid #FFF;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 30px;
     margin: 10px 0 10px 10px;
     min-width: 100px;
     text-align: center;
 }
 
-.navbar-brand:hover {
-    border: 2px solid #007fff;
-}
-
-.nav-item:hover {
-    color: #007fff;
-}
-
 .nav-item {
     font-size: 16px;
-    color: #FFF;
     margin: 10px 0 10px 10px;
     min-width: 100px;
 }
 
 .nav-item a {
-    color: #FFF;
     text-align: center;
 }
 
-.nav-item a:hover {
-    color: #007fff;
-}
-
-/* 内容 */
-.div-main {
-    width: 960px;
-    margin: 0 auto;
-    padding: 70px 0 0 0;
-    position: relative;
-}
-
 /* 左侧 */
-.post-left {
-    width: 700px;
-    float: left;
-}
-
-
 .bd-example {
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .div-left {
-    background-color: #FFF;
-    padding: 15px 20px 20px 20px;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 25px;
-}
-
-.breadcrumb {
-    background-color: #FFF;
-    border-radius: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .div-left-title {
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 .div-left-title-h4 {
     font-size: 16px;
     color: #393939;
     border-left: 4px solid #007fff;
-    margin-left: -22px;
     margin-bottom: 15px;
     padding: 5px 0 5px 18px;
     text-align: left;
     font-weight: bold;
 }
 
+.div-left-article {
+    margin: 0 0 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEE;
+}
+
+.div-left-article-col {
+    padding-top: 15px;
+}
+
 .div-left-img {
     width: 100%;
-    height: 120px;
+    min-height: 120px;
 }
 
 .div-left-img:hover {
@@ -157,11 +117,6 @@ pre {
     opacity: 0.7;
 }
 
-.div-left-article {
-    margin-bottom: 20px;
-    padding: 15px 0;
-    border-bottom: 1px solid #EEE;
-}
 
 .div-left-article h2 {
     font-size: 20px;
@@ -211,18 +166,19 @@ pre {
     font-weight: normal;
 }
 
-/* 右侧 */
-.post-right {
-    width: 240px;
-    margin-left: 20px;
-    float: right;
+.breadcrumb {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
 }
 
+/* 右侧 */
+
 .div-right-item {
-    padding: 15px 20px 20px;
-    background-color: #FFF;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .index-search {
@@ -261,7 +217,7 @@ pre {
     font-size: 16px;
     color: #393939;
     border-left: 4px solid #007fff;
-    margin-left: -22px;
+    margin-left: -20px;
     margin-bottom: 15px;
     padding: 5px 0 5px 18px;
     text-align: left;
@@ -323,9 +279,9 @@ pre {
 
 /* 文章 */
 .post-main {
-    background-color: #FFF;
+    background-color: rgb(255, 255, 255);
     padding: 20px 30px 30px;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px;
 }
 
@@ -339,8 +295,8 @@ pre {
     margin-top: 15px;
     margin-bottom: 20px;
     font-weight: bold;
-    margin-left: -32px;
-    padding-left: 30px;
+    margin-left: -30px;
+    padding-left: 25px;
 }
 
 .article-meta {
@@ -358,12 +314,20 @@ pre {
     line-height: 2em;
     word-break: break-all;
     word-wrap: break-word;
-    margin: 50px 0 20px 0;
+    margin: 30px 0 20px 0;
     color: #2a2a2a;
 }
 
 .article-content p {
     margin-bottom: 20px;
+}
+
+.article-content a {
+    color: #007bff;
+}
+
+.article-content a:hover {
+    color: red;
 }
 
 .post-tag {
@@ -393,14 +357,19 @@ pre {
 }
 
 /* 其它 */
+table {
+    margin-bottom: 20px;
+}
+
 table thead tr th {
-    min-width: 150px;
+    min-width: 60px;
     padding: 10px 5px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: #D3D6D9;
 }
+
 table tbody tr td {
     padding: 10px 5px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: #F8FAFC;
 }

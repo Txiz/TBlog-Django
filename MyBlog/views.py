@@ -8,6 +8,7 @@ from MyBlog.models import Category, Article, Tag, RotationChart
 def global_variable(request):
     all_category = Category.objects.all().order_by('index')
     all_tag = Tag.objects.all()
+    new_article = Article.objects.all().order_by('-create_time')[:10]
     hot_article = Article.objects.all().order_by('-views')[:10]
     picture_list = RotationChart.objects.filter(is_active=False)
     picture_active = RotationChart.objects.filter(is_active=True)
@@ -17,7 +18,7 @@ def global_variable(request):
 # 首页
 def index(request):
     all_article = Article.objects.all().order_by('id')
-    paginator = Paginator(all_article, 5)
+    paginator = Paginator(all_article, 10)
     page = request.GET.get('page')
     try:
         all_list = paginator.page(page)
@@ -34,7 +35,7 @@ def index(request):
 def list_page(request, list_id):
     category_name = Category.objects.get(id=list_id)
     all_list = Article.objects.filter(category_id=list_id).order_by('id')
-    paginator = Paginator(all_list, 5)
+    paginator = Paginator(all_list, 10)
     page = request.GET.get('page')
     try:
         all_list = paginator.page(page)
@@ -67,7 +68,7 @@ def tag_page(request, tag):
     all_list = Article.objects.filter(tag__name=tag).order_by('id')
     tag_name = Tag.objects.get(name=tag)
     page = request.GET.get('page')
-    paginator = Paginator(all_list, 5)
+    paginator = Paginator(all_list, 10)
     try:
         all_list = paginator.page(page)  # 获取当前页码的记录
     except PageNotAnInteger:
@@ -82,7 +83,7 @@ def search_page(request):
     search_key = request.GET.get('search')
     all_list = Article.objects.filter(title__contains=search_key)
     page = request.GET.get('page')
-    paginator = Paginator(all_list, 5)
+    paginator = Paginator(all_list, 10)
     try:
         all_list = paginator.page(page)  # 获取当前页码的记录
     except PageNotAnInteger:

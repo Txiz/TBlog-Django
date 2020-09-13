@@ -7,25 +7,27 @@
         </button>
     </form>
 </section>
-<!-- 联系博主 -->
-<div class="div-right-item">
-    <h4 class="post-right-title">联系博主</h4>
-    <div class="wid-about">
-        <img src="{% static "picture/weixin.jpg" %}" width="160" height="160" alt="微信二维码">
-    </div>
-    <div class="wid-about">
-        <p><strong>联系方式:</strong></p>
-        <p>QQ:853954828</p>
-        <p>Email：xiongzhaoxi@qq.com</p>
-    </div>
-</div>
+
+<!-- 最新文章 -->
+<section class="div-right-item">
+    <h4 class="post-right-title">最新文章</h4>
+    <ol class="hot-list">
+        {% for article in new_article %}
+            <li>
+                <a href="{% url 'index' %}show-{{ article.id }}.html" target="_blank"
+                   title="{{ article.title }}">{{ article.title }}</a>
+            </li>
+        {% endfor %}
+    </ol>
+</section>
+
 <!-- 热门文章 -->
 <section class="div-right-item">
-    <h4 class="post-right-title">热门文章排行</h4>
+    <h4 class="post-right-title">热门文章</h4>
     <ol class="hot-list">
         {% for article in hot_article %}
             <li>
-                <a href="{% url 'index' %}show-{{ article.id }}.html"
+                <a href="{% url 'index' %}show-{{ article.id }}.html" target="_blank"
                    title="{{ article.title }}">{{ article.title }}</a>
             </li>
         {% endfor %}
@@ -42,5 +44,19 @@
         </div>
     </section>
 </section>
+
+
+<!-- 联系博主 -->
+<div class="div-right-item">
+    <h4 class="post-right-title">联系博主</h4>
+    <div class="wid-about">
+        <img src="{% static "picture/weixin.jpg" %}" width="160" height="160" alt="微信二维码">
+    </div>
+    <div class="wid-about">
+        <p><strong>联系方式:</strong></p>
+        <p>QQ:853954828</p>
+        <p>Email：xiongzhaoxi@qq.com</p>
+    </div>
+</div>
 
 

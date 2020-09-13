@@ -21,7 +21,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'index')
+    list_display = ('id', 'name', 'index', 'img')
 
 
 @admin.register(Tag)

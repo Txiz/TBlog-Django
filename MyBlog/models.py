@@ -2,12 +2,11 @@ from PIL import Image
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-
-# Create your models here.
-# 用户
 from mdeditor.fields import MDTextField
 
 
+# Create your models here.
+# 用户
 class User(AbstractUser):
     class Meta:
         verbose_name = '用户信息'
@@ -21,6 +20,7 @@ class User(AbstractUser):
 class Category(models.Model):
     name = models.CharField('博客分类', max_length=100)
     index = models.IntegerField(default=1, verbose_name='分类排序')
+    img = models.ImageField(upload_to='article_img/%Y/%m/%d/', verbose_name='文章图片')
 
     class Meta:
         verbose_name = '博客分类'
@@ -48,7 +48,6 @@ class Article(models.Model):
     digest = models.TextField('摘要', max_length=200, blank=True)
     category = models.ForeignKey(Category, on_delete=models.DO_NOTHING, verbose_name='分类', blank=True, null=True)
     tag = models.ManyToManyField(Tag, verbose_name='标签', blank=True)
-    img = models.ImageField(upload_to='article_img/%Y/%m/%d/', verbose_name='文章图片', blank=True, null=True)
     body = MDTextField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='作者')
     views = models.PositiveIntegerField('阅读量', default=0)

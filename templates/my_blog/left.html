@@ -6,20 +6,20 @@
     </div>
     {% for article in all_list %}
         <div class="row clearfix div-left-article">
-            <div class="col-md-4">
+            <div class="div-left-article-col col-md-4">
                 <div class="img-thumbnail">
-                    <a href="{% url 'index' %}show-{{ article.id }}.html" title="{{ article.title }}">
-                        <img src="media/{{ article.img }}" class="div-left-img"/>
+                    <a href="{% url 'index' %}show-{{ article.id }}.html" target="_blank" title="{{ article.title }}">
+                        <img src="media/{{ article.category.img }}" class="div-left-img"/>
                     </a>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="div-left-article-col col-md-8">
                 <h2>
-                    <a href="{% url 'index' %}show-{{ article.id }}.html"
+                    <a href="{% url 'index' %}show-{{ article.id }}.html" target="_blank"
                        title="{{ article.title }}">{{ article.title }}</a>
                 </h2>
                 <p>
-                    <a href="{% url 'index' %}show-{{ article.id }}.html"
+                    <a href="{% url 'index' %}show-{{ article.id }}.html" target="_blank"
                        title="{{ article.title }}">{{ article.digest }}</a>
                 </p>
                 <div class="meta">

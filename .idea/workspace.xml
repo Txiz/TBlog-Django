@@ -6,8 +6,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第七次更新，修改了部分代码">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2020_8_28_11_42____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2020_8_28_11_42_取消提交了变更_[默认的]/Back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2020_8_28_11_42_取消提交了变更_[默认的]/Snipaste_2020-07-31_17-16-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2020_8_28_11_42_取消提交了变更_[默认的]/Snipaste_2020-07-31_17-16-11_2eIPCmc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2020_8_28_11_42_取消提交了变更_[默认的]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/rotation_chart/2020/09/02/f90e7479.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/right.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/tag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +221,12 @@
       <workItem from="1598680857319" duration="23000" />
       <workItem from="1598680947401" duration="1201000" />
       <workItem from="1598682180115" duration="1389000" />
-      <workItem from="1599032050338" duration="1172000" />
+      <workItem from="1599032050338" duration="2001000" />
+      <workItem from="1599902943437" duration="111000" />
+      <workItem from="1599988978884" duration="276000" />
+      <workItem from="1599989353139" duration="112000" />
+      <workItem from="1599991872078" duration="11959000" />
+      <workItem from="1600004182421" duration="4136000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -309,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599032494174</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="第七次更新，修改了部分代码">
+      <created>1599033309119</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599033309119</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,10 +414,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="第七次更新，修改了部分代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="685" y="394" key="#Notifications" timestamp="1596080717038">
+    <state x="685" y="394" key="#Notifications" timestamp="1599991926405">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="685" y="394" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1596080717038" />
+    <state x="685" y="394" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1599991926405" />
     <state x="452" y="92" key="#Plugins" timestamp="1598421992084">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -427,22 +458,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="1865" height="270" key="GridCell.Tab.0.bottom" timestamp="1599032576806">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1600008416346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576806" />
-    <state width="1865" height="270" key="GridCell.Tab.0.center" timestamp="1599032576805">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600008416346" />
+    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1600008416346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576805" />
-    <state width="1865" height="270" key="GridCell.Tab.0.left" timestamp="1599032576805">
+    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600008416346" />
+    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1600008416346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576805" />
-    <state width="1865" height="270" key="GridCell.Tab.0.right" timestamp="1599032576806">
+    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600008416346" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1600008416346">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="270" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599032576806" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600008416346" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -487,10 +518,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1599032501401">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1599033316089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599032501401" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599033316089" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -507,10 +538,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599032475090">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599033296728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599032475090" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599033296728" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -1,19 +1,19 @@
 {% load static %}
 {% for list in all_list %}
     <div class="row div-left-article clearfix ">
-        <div class="col-md-4">
+        <div class="col-md-4 div-left-article-col">
             <div class="img-thumbnail">
-                <a href="{% url 'index' %}show-{{ list.id }}.html">
-                    <img src="../media/{{ list.img }}" class="div-left-img"/>
+                <a href="{% url 'index' %}show-{{ list.id }}.html" target="_blank">
+                    <img src="../media/{{ list.category.img }}" class="div-left-img"/>
                 </a>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 div-left-article-col">
             <h2>
-                <a href="{% url 'index' %}show-{{ list.id }}.html">{{ list.title }}</a>
+                <a href="{% url 'index' %}show-{{ list.id }}.html" target="_blank">{{ list.title }}</a>
             </h2>
             <p>
-                <a href="{% url 'index' %}show-{{ list.id }}.html">{{ list.digest }}</a>
+                <a href="{% url 'index' %}show-{{ list.id }}.html" target="_blank">{{ list.digest }}</a>
             </p>
             <div class="meta">
                 <div class="meta">

@@ -1,59 +1,62 @@
 ﻿{% extends "my_blog/base.html" %}
 {% block content %}
     <!-- /主体 -->
-    <div class="div-main clearfix">
+    <div class="container clearfix">
         {% include 'my_blog/rotation_chart.html' %}
-        <section class="post-left">
-            <div class="breadcrumb">
-                您的位置：
-                <a itemprop="breadcrumb" href="{% url 'index' %}">首页</a>
-                &nbsp; » &nbsp;
-                <a href="{% url 'index' %}list-{{ article.category.id }}.html">{{ article.category.name }}</a>
-                &nbsp; » &nbsp;
-                <span class="current">正文</span>
-            </div>
-            <div class="post-main clearfix">
-                <h1 class="post-title">{{ article.title }}</h1>
-                <div class="post-con clearfix">
-                    <div class="article-meta">
+        <div class="row">
+            <section class="col-lg-9">
+                <div class="breadcrumb">
+                    您的位置：
+                    <a itemprop="breadcrumb" href="{% url 'index' %}">首页</a>
+                    &nbsp; » &nbsp;
+                    <a href="{% url 'index' %}list-{{ article.category.id }}.html">{{ article.category.name }}</a>
+                    &nbsp; » &nbsp;
+                    <span class="current">正文</span>
+                </div>
+                <div class="post-main clearfix">
+                    <h1 class="post-title">{{ article.title }}</h1>
+                    <div class="post-con clearfix">
+                        <div class="article-meta">
                         <span class="item">分类：
                             <a href="{% url 'index' %}list-{{ article.category.id }}.html"
                                rel="category tag">{{ article.category.name }}</a>
                         </span>
-                        <span class="item text-success">浏览：{{ article.views }}</span>
-                        <span class="item text-primary">发布时间：{{ article.create_time }}</span>
-                    </div>
-                    <article class="article-content codehilite">
-                        {{ article.toc|safe }}
-                        {{ article.body|safe }}
-                    </article>
-                    <div class="post-tag"><span class="fa fa-tags" aria-hidden="true"></span>标签：
-                        {% for tag in article.tag.all %}
-                            <a href="{% url 'index' %}tag/{{ tag.name }}" rel="tag">{{ tag.name }}</a>
-                        {% endfor %}
-                    </div>
-                    <div>
-                        <div><b>上一篇：</b>
-                            {% if next_blog %}
-                                <a href="show-{{ next_blog.pk }}.html" class="article-tag">{{ next_blog }}</a>
-                            {% else %}
-                                没有了
-                            {% endif %}
+                            <span class="item text-success">浏览：{{ article.views }}</span>
+                            <span class="item text-primary">发布时间：{{ article.create_time }}</span>
                         </div>
-                        <div><b>下一篇：</b>
-                            {% if previous_blog %}
-                                <a href="show-{{ previous_blog.pk }}.html" class="article-tag">{{ previous_blog }}</a>
-                            {% else %}
-                                没有了
-                            {% endif %}
+                        <article class="article-content codehilite">
+                            {{ article.toc|safe }}
+                            {{ article.body|safe }}
+                        </article>
+                        <div class="post-tag"><span class="fa fa-tags" aria-hidden="true"></span>标签：
+                            {% for tag in article.tag.all %}
+                                <a href="{% url 'index' %}tag/{{ tag.name }}" rel="tag">{{ tag.name }}</a>
+                            {% endfor %}
+                        </div>
+                        <div>
+                            <div><b>上一篇：</b>
+                                {% if next_blog %}
+                                    <a href="show-{{ next_blog.pk }}.html" class="article-tag">{{ next_blog }}</a>
+                                {% else %}
+                                    没有了
+                                {% endif %}
+                            </div>
+                            <div><b>下一篇：</b>
+                                {% if previous_blog %}
+                                    <a href="show-{{ previous_blog.pk }}.html"
+                                       class="article-tag">{{ previous_blog }}</a>
+                                {% else %}
+                                    没有了
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <aside class="post-right hidden-xs">
-            {% include 'my_blog/right.html' %}
-        </aside>
+            </section>
+            <aside class="col-lg-3">
+                {% include 'my_blog/right.html' %}
+            </aside>
+        </div>
     </div>
     <!-- /主体 -->
 {% endblock %}
