@@ -68,6 +68,7 @@ class RotationChart(models.Model):
     title = models.CharField('轮播图标题', max_length=70)
     content = models.TextField('轮播图文本', max_length=200, blank=True, null=True)
     is_active = models.BooleanField('是否是active', default=False)
+    is_show = models.BooleanField('是否展示', default=True)
     create_time = models.DateTimeField('发布时间', auto_now_add=True)
     update_time = models.DateTimeField('修改时间', auto_now=True)
 

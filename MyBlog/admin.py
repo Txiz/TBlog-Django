@@ -31,4 +31,4 @@ class TagAdmin(admin.ModelAdmin):
 
 @admin.register(RotationChart)
 class RotationChartAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title', 'content', 'img', 'create_time', 'update_time')
+    list_display = ('id', 'title', 'content', 'img', 'create_time', 'update_time', 'is_show')

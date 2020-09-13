@@ -10,8 +10,8 @@ def global_variable(request):
     all_tag = Tag.objects.all()
     new_article = Article.objects.all().order_by('-create_time')[:10]
     hot_article = Article.objects.all().order_by('-views')[:10]
-    picture_list = RotationChart.objects.filter(is_active=False)
-    picture_active = RotationChart.objects.filter(is_active=True)
+    picture_list = RotationChart.objects.filter(is_show=True).filter(is_active=False)
+    picture_active = RotationChart.objects.filter(is_show=True).filter(is_active=True)
     return locals()
 
 

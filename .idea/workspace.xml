@@ -5,7 +5,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第八此更新，大改" />
+    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第八此更新，大改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/my_blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/my_blog/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +214,9 @@
       <workItem from="1599988978884" duration="276000" />
       <workItem from="1599989353139" duration="112000" />
       <workItem from="1599991872078" duration="11959000" />
-      <workItem from="1600004182421" duration="4442000" />
+      <workItem from="1600004182421" duration="4547000" />
+      <workItem from="1600009335637" duration="46000" />
+      <workItem from="1600009796698" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -328,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600008796732</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="第八此更新，大改">
+      <created>1600008920405</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600008920405</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,22 +464,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1600008637226">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1600010063174">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600008637226" />
-    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1600008637226">
+    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600010063174" />
+    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1600010063173">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600008637226" />
-    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1600008637226">
+    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600010063173" />
+    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1600010063172">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600008637226" />
-    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1600008637226">
+    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600010063172" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1600010063173">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600008637226" />
+    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600010063173" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -508,10 +524,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1600008807232">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1600008926566">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600008807232" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600008926566" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -528,10 +544,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600008765387">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600009918352">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600008765387" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600009918352" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
