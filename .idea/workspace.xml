@@ -5,7 +5,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第八此更新，大改" />
+    <list default="true" id="8fa8569d-c1ef-4e73-9e59-5f2439971ebf" name="默认的" comment="第八此更新，大改">
+      <change afterPath="$PROJECT_DIR$/media/article_img/2020/09/14/java.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article_img/2020/09/14/python.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article_img/2020/09/14/数据结构与算法.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/editor/1-1_20200914095827883281.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/rotation_chart/2020/09/14/MaKo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/rotation_chart/2020/09/14/Rem.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,6 +219,8 @@
       <workItem from="1600004182421" duration="4547000" />
       <workItem from="1600009335637" duration="46000" />
       <workItem from="1600009796698" duration="354000" />
+      <workItem from="1600046964274" duration="111000" />
+      <workItem from="1600048032000" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="init comment">
       <created>1596077790910</created>
@@ -344,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600010136919</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="第八此更新，大改">
+      <created>1600047038358</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600047038358</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,22 +482,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="680" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596075909018" />
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1600010151441">
+    <state width="928" height="275" key="GridCell.Tab.0.bottom" timestamp="1600048044838">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600010151441" />
-    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1600010151441">
+    <state width="928" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600048044838" />
+    <state width="928" height="275" key="GridCell.Tab.0.center" timestamp="1600048044838">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600010151441" />
-    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1600010151441">
+    <state width="928" height="275" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600048044838" />
+    <state width="928" height="275" key="GridCell.Tab.0.left" timestamp="1600048044838">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600010151441" />
-    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1600010151441">
+    <state width="928" height="275" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600048044838" />
+    <state width="928" height="275" key="GridCell.Tab.0.right" timestamp="1600048044838">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600010151441" />
+    <state width="928" height="275" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600048044838" />
     <state width="1865" height="345" key="GridCell.Tab.1.bottom" timestamp="1595340553331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -524,10 +542,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="314" height="242" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1595922893865" />
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1600010140507">
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2" timestamp="1600047043077">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600010140507" />
+    <state x="327" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600047043077" />
     <state x="415" y="377" width="249" height="368" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1593577270013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -544,10 +562,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596185094788" />
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600010127086">
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600047028636">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600010127086" />
+    <state x="723" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600047028636" />
     <state x="646" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596184934588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
