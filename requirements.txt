@@ -11,7 +11,7 @@ django-reversion==3.0.7
 django-simpleui==2020.7
 et-xmlfile==1.0.1
 future==0.18.2
-httplib2==0.18.1
+httplib2==0.19.0
 jdcal==1.4.1
 Markdown==3.2.2
 MarkupPy==1.14
