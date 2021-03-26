@@ -22,7 +22,7 @@ Pillow==7.1.2
 protobuf==3.12.2
 Pygments==2.6.1
 pytz==2020.1
-PyYAML==5.3.1
+PyYAML==5.4
 six==1.15.0
 sqlparse==0.3.1
 tablib==2.0.0
